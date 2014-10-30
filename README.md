@@ -7,7 +7,7 @@ Usage :
 
 
 Example :
-''' 
+``` 
 otherTask.h 
 @Interface otherTask : iOSAsyncK {
     NSArray* yourParamHere;
@@ -50,4 +50,4 @@ otherTask.m
     // do something here according to your result 
 }
 @end
-'''
+```
