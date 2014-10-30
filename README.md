@@ -6,7 +6,8 @@ Usage :
   remember preExcute / postExecute are running on UI thread, doInBackground is running on other thread. 
 
 
-Example : 
+Example :
+''' 
 otherTask.h 
 @Interface otherTask : iOSAsyncK {
     NSArray* yourParamHere;
@@ -49,3 +50,4 @@ otherTask.m
     // do something here according to your result 
 }
 @end
+'''
